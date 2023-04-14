@@ -14,12 +14,12 @@ const UpdateForm =({updateData, updateTask, changeTask, cancelUpdate  }) => {
          <div className='col-auto'>
            <button 
             onClick={updateTask}
-            className='btn btn-lg btn-success mr-20'>
+            className='btn btn-lg btn-dark mr-20'>
              Update
            </button>
            <button 
            onClick={cancelUpdate}
-           className='btn btn-lg btn-warning'>
+           className='btn btn-lg btn-light'>
             Cancel
            </button>
          </div>
